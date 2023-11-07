@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "contributor"
+version = "0.1.0"
+description = "An AI assistant that writes pull requests for you."
+authors = ["rasdani <73563550+rasdani@users.noreply.github.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+openai = "^1.1.1"
+python-dotenv = "^1.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
